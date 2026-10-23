@@ -12,3 +12,23 @@
     align-self: flex-start;
     margin-top: 20px;
 }
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.prices > .price {
+    flex: 1;
+    min-width: 220px;
+}
+
+.panel {
+    margin-bottom: 22px;
+}
+
+input[type="number"],
+input[type="text"] {
+    color: #091321 !important;
+    background-color: #ffffff !important;
+}
