@@ -1,0 +1,14 @@
+.grid > .card {
+    display: flex;
+    flex-direction: column;
+}
+.grid > .card > .tag {
+    min-height: 2.4em;
+}
+.grid > .card > p {
+    flex-grow: 1;
+}
+.grid > .card > .button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
